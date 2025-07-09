@@ -58,6 +58,31 @@
 			path = ArtGalleryExplorerApplicationUITests;
 			sourceTree = "<group>";
 		};
+		876F97312E1E832600E9FDE4 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		876F97322E1E833200E9FDE4 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		876F97332E1E833900E9FDE4 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		876F97342E1E834400E9FDE4 /* NetworkService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		876F97352E1E835B00E9FDE4 /* SupportingFiles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +113,11 @@
 		876F96F42E1E82F500E9FDE4 = {
 			isa = PBXGroup;
 			children = (
+				876F97352E1E835B00E9FDE4 /* SupportingFiles */,
+				876F97342E1E834400E9FDE4 /* NetworkService */,
+				876F97332E1E833900E9FDE4 /* ViewModels */,
+				876F97322E1E833200E9FDE4 /* Views */,
+				876F97312E1E832600E9FDE4 /* Models */,
 				876F96FF2E1E82F500E9FDE4 /* ArtGalleryExplorerApplication */,
 				876F97162E1E82F900E9FDE4 /* ArtGalleryExplorerApplicationTests */,
 				876F97202E1E82F900E9FDE4 /* ArtGalleryExplorerApplicationUITests */,
@@ -122,6 +152,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				876F96FF2E1E82F500E9FDE4 /* ArtGalleryExplorerApplication */,
+				876F97312E1E832600E9FDE4 /* Models */,
+				876F97322E1E833200E9FDE4 /* Views */,
+				876F97332E1E833900E9FDE4 /* ViewModels */,
+				876F97342E1E834400E9FDE4 /* NetworkService */,
+				876F97352E1E835B00E9FDE4 /* SupportingFiles */,
 			);
 			name = ArtGalleryExplorerApplication;
 			packageProductDependencies = (
